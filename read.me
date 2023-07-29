@@ -1,0 +1,59 @@
+# Employees Application
+
+This is a Node.js application for managing employees. It provides endpoints to perform basic CRUD operations on employee records.
+
+## Prerequisites
+
+Make sure you have the following software and tools installed on your machine:
+
+- Node.js (v14.17.3 or higher): https://nodejs.org
+- npm (v7.20.3 or higher): Included with Node.js installation
+- Postman (v9.12.3 or higher): https://www.postman.com/downloads/
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository_url>
+
+2. Cd employee-api
+
+# Running the Application
+
+1. Start the server:
+
+    node app.js
+You should see the message "Server started on http://localhost:3000" in the terminal, indicating that the server is running.
+
+2. Access the API endpoints:
+
+Open a web browser or use Postman to send requests to the following API endpoints:
+
+GET all employees:
+    `http://localhost:3000/api/employees`
+
+GET employee by ID:
+ `http://localhost:3000/api/employees/{empId}`
+
+POST create employee:
+`http://localhost:3000/api/employees`
+
+PUT update employee:
+`http://localhost:3000/api/employees/{empId}`
+
+DELETE employee:
+ `http://localhost:3000/api/employees/{empId}`
+
+
+### API Documentation
+For detailed information about the API endpoints and request/response examples, please refer to the Postman collection.
+
+### Software and Tool Versions
+Node.js: v14.17.3
+npm: 7.20.3
+Postman: v9.12.3
+
+
+### License
+This project is licensed under the MIT License.
